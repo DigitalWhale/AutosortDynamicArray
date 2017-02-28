@@ -1,7 +1,7 @@
 'use strict';
 
 let arr = [{name: "lol1", val: 1}, {name: "lol2", val: 4}, {name: "lol3", val: 3}, {name: "lol4", val: 1}, {name: "lol5", val: 6}, {name: "lol6", val: 4}, {name: "lol7", val: 1}, {name: "lol8", val: 8}, {name: "lol9", val: 10}];
-let darr = new AArray((a, b) => {
+let darr = new AArray((a, b) => { //D rjycnhern
     if(a["val"] > b["val"]){
         return true;
     }
